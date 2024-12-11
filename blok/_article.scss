@@ -1,0 +1,215 @@
+.art_wrapper {
+  width: 100%;
+  height: 600px;
+  margin: auto;
+
+  .art_title {
+    /* Цены */
+
+    width: 604px;
+    height: 61px;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 370px;
+    line-height: 61px;
+    /* identical to box height */
+
+    /* dark */
+    color: #001e42;
+  }
+
+  .art_text {
+    /* У нас нет зарплаты или фиксированной суммы в месяц, все рассчеты базируются только на количестве компьютеров, которые мы берем на обслуживание и подключенных услугах. Платите только за что чем пользуетесь - максимальная экономия и эффективность. Оставьте заявку на обслуживание компьютеров и мы подготовим предложение специально для вас */
+
+    width: 529px;
+    height: 236px;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+    /* txt */
+    color: #252d37;
+  }
+
+  .art_sp1 {
+    width: 529px;
+    height: 236px;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+    /* txt */
+    color: black;
+  }
+
+  .art_btn {
+    /* Rectangle 2 */
+
+    box-sizing: border-box;
+
+    width: 228px;
+    height: 59px;
+
+    /* dark */
+    background-color: white;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* dark */
+    color: #001e42;
+
+    transform: matrix(1, 0, 0, 1, 0, 0);
+
+    border: 2px solid #001e42;
+  }
+
+  .art_btn:hover {
+    background-color: #f2f2f2;
+    transform: scale(1.2); /* Scale up */
+  }
+
+  .art_btn1 {
+    /* Rectangle 2 */
+
+    box-sizing: border-box;
+
+    width: 157px;
+    height: 50px;
+
+    /* dark */
+    background-color: inherit;
+    border: 2px solid #001e42;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* dark */
+    color: #001e42;
+
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+
+  .art_btn1:hover {
+    background-color: #f2f2f2;
+    transform: scale(1.2); /* Scale up */
+  }
+
+  .art_blok {
+    /* Rectangle 38 */
+
+    box-sizing: border-box;
+    width: 259px;
+    height: 321px;
+
+    /* dark */
+    border: 2px solid #001e42;
+  }
+
+  .art_glav_box {
+    margin-top: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .art_mini_box {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .art_blok_title {
+    /* Тарифный план */
+
+    width: 167px;
+    height: 25px;
+    margin: auto;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    text-align: center;
+
+    /* dark */
+    color: #001e42;
+  }
+
+  .art_blok_sub_title {
+    /* Легкий старт */
+
+    width: 221px;
+    height: 36px;
+    margin: auto;
+    padding: 25px 0;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 140%;
+    /* or 36px */
+    text-align: center;
+    text-transform: uppercase;
+
+    /* dark */
+    color: #001e42;
+  }
+
+  .art_blok_text {
+    /* грн/мес */
+
+    width: 92px;
+    height: 24px;
+    margin: 66px auto;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    /* dark */
+    color: #001e42;
+  }
+
+  .art_blok_text1 {
+    /* за 1 рабочее место */
+
+    width: 189px;
+    padding: 15 0;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    margin: auto;
+    /* or 25px */
+    text-align: center;
+
+    /* dark */
+    color: #001e42;
+  }
+}

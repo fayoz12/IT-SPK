@@ -1,0 +1,98 @@
+.footer_wrapper {
+  width: 100%;
+  height: 240px;
+
+  /* ultra-dark */
+  background: #06182f;
+
+  .footer_text {
+    /* info@it-spk.com */
+
+    width: 176px;
+    height: 21px;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #ffffff;
+  }
+
+  .footer_title {
+    /* +380 93 541 20 92 */
+
+    width: 175px;
+    height: 21px;
+
+    font-family: "Montserrat";
+    padding: 15px 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #ffffff;
+  }
+
+  .footer_tel_text {
+    /* lifecell */
+
+    width: 40px;
+    height: 17px;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #ffffff;
+  }
+
+  .footer_right_title {
+    /* Обслуживание компьютеров и монтаж сетей в Киеве */
+
+    width: 304px;
+    height: 44px;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+
+    color: #00feff;
+  }
+
+  .footer_right_text {
+    margin: 50px 170px;
+    width: 122px;
+    height: 22px;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: right;
+
+    color: #ffffff;
+  }
+
+  .footer_glav_box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer_tel_Box {
+   
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+}

@@ -1,0 +1,801 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-style: normal;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-style: normal;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav_wrapper {
+  width: 100%;
+  height: 800px;
+  border: 1px solid black;
+  background-color: #01244e;
+  margin: auto;
+}
+.nav_wrapper .nav_item {
+  width: 64px;
+  height: 21px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.nav_wrapper .nav_text {
+  width: 224px;
+  height: 44px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.nav_wrapper .nav_tel {
+  width: 224px;
+  height: 44px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.nav_wrapper .nav_Box {
+  display: flex;
+  align-items: center;
+  gap: 410px;
+  margin: 50px 410px;
+}
+.nav_wrapper .nav_item_box {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+.nav_wrapper .nav_btn {
+  width: 18px;
+  height: 13px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* light */
+  color: #00feff;
+  /* Ellipse 1 */
+  box-sizing: border-box;
+  width: 27px;
+  height: 27px;
+  border: 1px solid #00feff;
+  border-radius: 60px;
+  background-color: inherit;
+}
+.nav_wrapper .nav_title_box {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.intro_wrapper {
+  width: 100%;
+  height: 550px;
+}
+.intro_wrapper .intro_title {
+  /* IT-Аутсорсинг компаниям в Киеве */
+  width: 568px;
+  height: 110px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 110%;
+  /* or 55px */
+  color: #00feff;
+}
+.intro_wrapper .intro_text {
+  width: 568px;
+  height: 110px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 110%;
+  /* or 55px */
+  padding: 50px 0;
+  color: #00feff;
+}
+.intro_wrapper .intro_text1 {
+  width: 221px;
+  height: 69px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  /* or 34px */
+  color: #ffffff;
+}
+.intro_wrapper .intro_sp1 {
+  width: 221px;
+  height: 69px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 140%;
+  /* or 34px */
+  color: #ffffff;
+}
+.intro_wrapper .intro_btn {
+  /* Rectangle 4 */
+  width: 376px;
+  height: 659px;
+  background: linear-gradient(0deg, rgba(1, 53, 113, 0.25), rgba(1, 53, 113, 0.25)), url(bg.jpg);
+  width: 298px;
+  height: 50px;
+  background: #00feff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  margin-top: 25px;
+  text-transform: uppercase;
+  color: #002047;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  border: 2px solid #001e42;
+}
+.intro_wrapper .intro_box {
+  display: flex;
+  align-items: center;
+  margin-left: 160px;
+}
+
+.head_wrapper {
+  width: 100%;
+  height: 200px;
+  margin: auto;
+}
+.head_wrapper .head_title {
+  width: 186px;
+  height: 58px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  /* dark */
+  color: #001e42;
+}
+.head_wrapper .head_text {
+  width: 821px;
+  height: 139px;
+  /* base */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+  /* txt */
+  color: #252d37;
+}
+.head_wrapper .head_glav_box {
+  display: flex;
+  align-items: center;
+  gap: 600px;
+  margin: 50px 410px;
+}
+
+.main_wrapper {
+  width: 100%;
+  height: 1290px;
+  margin: auto;
+}
+.main_wrapper .main_title {
+  width: 201px;
+  height: 61px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  /* identical to box height */
+  /* dark */
+  margin: 150px 400px;
+  color: #001e42;
+}
+.main_wrapper .main_mini_box {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 1200px;
+  flex-wrap: wrap;
+  height: 500px;
+}
+.main_wrapper .main_mini_box2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 1200px;
+  flex-wrap: wrap;
+  margin-top: 210px;
+  height: 500px;
+}
+.main_wrapper .main_text_Box {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.main_wrapper .main_box_text {
+  width: 166px;
+  height: 44px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 23px */
+  /* dark */
+  color: #001e42;
+}
+.main_wrapper .main_title1 {
+  width: 940px;
+  height: 32px;
+  margin-top: 50px;
+  margin-left: 400px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* dark */
+  color: #001e42;
+}
+.main_wrapper .main_glav_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.main_wrapper .main_text1 {
+  width: 529px;
+  height: 182px;
+  /* base */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+  /* txt */
+  color: #252d37;
+}
+.main_wrapper .main_btn {
+  width: 253px;
+  height: 50px;
+  background: #00feff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: none;
+  margin: 50px 370px;
+  color: #002047;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.inp_wrapper {
+  width: 100%;
+  height: 430px;
+  border: 1px solid black;
+  margin: 120px auto;
+}
+.inp_wrapper .inp_bck {
+  background-image: url("../img/inp_wrapper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 430px;
+}
+.inp_wrapper .inp_input {
+  width: 343px;
+  height: 42px;
+}
+.inp_wrapper .inp_title {
+  /* Оставьте заявку на обслуживание компьютеров и мы свяжемся с вами */
+  width: 374px;
+  height: 172px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  /* or 43px */
+  color: #ffffff;
+}
+.inp_wrapper .check_text {
+  /* Даю согласие на обработку персональных данных */
+  width: 267px;
+  height: 15px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  margin-top: 15px;
+  line-height: 140%;
+  /* or 14px */
+  /* txt-light */
+  color: #a5aaaf;
+}
+.inp_wrapper .inp_input {
+  margin-top: 15px;
+}
+.inp_wrapper .check_box {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.inp_wrapper .inp_check_box {
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+}
+.inp_wrapper .inp_btn {
+  /* Rectangle 2 */
+  width: 343px;
+  height: 50px;
+  background: #00feff;
+  margin-top: 25px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #002047;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.inp_wrapper .inp_glav_box {
+  position: absolute;
+  display: flex;
+  gap: 401px;
+  align-items: center;
+  margin: 50px 435px;
+}
+
+.asd_wrapper {
+  width: 100%;
+  height: 600px;
+  margin: auto;
+}
+.asd_wrapper .asd_glav_box {
+  display: flex;
+  align-items: center;
+  margin-left: 510px;
+  gap: 210px;
+}
+.asd_wrapper .asd_text {
+  width: 521px;
+  height: 102px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  /* or 31px */
+  /* dark */
+  color: #001e42;
+}
+.asd_wrapper .asd_img_box {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.asd_wrapper .asd_title {
+  width: 174px;
+  height: 118px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 115%;
+  /* or 55px */
+  /* dark */
+  color: #001e42;
+}
+.asd_wrapper .asd_text1 {
+  /* Подключить обслуживание компьютеров у нас очень просто */
+  width: 940px;
+  height: 32px;
+  margin: 50px 510px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* dark */
+  color: #001e42;
+}
+.asd_wrapper .asd_bck1 {
+  background-image: url("../img/1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* 1 */
+  width: 38px;
+  height: 117px;
+}
+.asd_wrapper .asd_bck2 {
+  background-image: url("../img/2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* 1 */
+  width: 57px;
+  height: 117px;
+}
+.asd_wrapper .asd_bck3 {
+  background-image: url("../img/3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* 1 */
+  width: 57px;
+  height: 117px;
+}
+.asd_wrapper .asd_mini_box {
+  display: flex;
+  align-items: center;
+  margin: 120px 270px;
+  gap: 610px;
+}
+.asd_wrapper .asd_text2 {
+  position: absolute;
+  margin-top: 55px;
+  margin-left: 35px;
+  width: 276px;
+  height: 43px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* dark */
+  color: #001e42;
+}
+
+.sub_wrapper {
+  width: 100%;
+  height: 600px;
+  margin: auto;
+}
+.sub_wrapper .sub_img {
+  width: 162px;
+  height: 110px;
+}
+.sub_wrapper .sub_box {
+  display: flex;
+  margin: 50px 180px;
+  gap: 210px;
+}
+.sub_wrapper .sub_title {
+  /* Клиенты */
+  width: 604px;
+  height: 61px;
+  margin-left: 180px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  /* identical to box height */
+  /* dark */
+  color: #001e42;
+}
+.sub_wrapper .sub_img_box {
+  display: flex;
+  gap: 270px;
+}
+.sub_wrapper .sub_mini_title {
+  /* Организация IT-инфраструктуры в Киеве */
+  width: 716px;
+  height: 24px;
+  margin-left: 180px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* txt-light */
+  color: #a5aaaf;
+}
+.sub_wrapper .sub_mini_text {
+  /* Мы имеем большой опыт организации работы IT отделов разных компаний из города Киев и на основе этого создали универсальный протокол работы, который гарантирует стабильно высокое качество предоставления услуг. Всегда на старте проводим аудит существующих апаратных и программных решений. Берем во внимание как проложены сети, установленное серверное и коммутационное оборудование, к каким провайдерам и на каких условиях подключено. Анализ установленных компьютеров и оборудования, завязанных в сеть компании. По результатам этого этапа работы мы даем комплексный отчет с перечнем найденных критических и потенциально проблемных мест в ИТ-инфраструктуре компании, с вариантами их устранения. В случае если идет проектирование IT-инфраструктуры с нуля, мы учтем все пожелания и сразу сделаем все необходимое для бесперебойной работы компьютерной сети компании. Спланируем и организуем переезд всех IT-систем офиса на новую локацию или удаленную работу сотрудников при необходимости. */
+  width: 530px;
+  height: 359px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 120%;
+  /* or 16px */
+  /* txt-light */
+  color: #a5aaaf;
+}
+.sub_wrapper .sub_mini_box {
+  display: flex;
+  margin: 50px 180px;
+  gap: 210px;
+}
+
+.art_wrapper {
+  width: 100%;
+  height: 600px;
+  margin: auto;
+}
+.art_wrapper .art_title {
+  /* Цены */
+  width: 604px;
+  height: 61px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  margin-left: 370px;
+  line-height: 61px;
+  /* identical to box height */
+  /* dark */
+  color: #001e42;
+}
+.art_wrapper .art_text {
+  /* У нас нет зарплаты или фиксированной суммы в месяц, все рассчеты базируются только на количестве компьютеров, которые мы берем на обслуживание и подключенных услугах. Платите только за что чем пользуетесь - максимальная экономия и эффективность. Оставьте заявку на обслуживание компьютеров и мы подготовим предложение специально для вас */
+  width: 529px;
+  height: 236px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+  /* txt */
+  color: #252d37;
+}
+.art_wrapper .art_sp1 {
+  width: 529px;
+  height: 236px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+  /* txt */
+  color: black;
+}
+.art_wrapper .art_btn {
+  /* Rectangle 2 */
+  box-sizing: border-box;
+  width: 228px;
+  height: 59px;
+  /* dark */
+  background-color: white;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* dark */
+  color: #001e42;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  border: 2px solid #001e42;
+}
+.art_wrapper .art_btn:hover {
+  background-color: #f2f2f2;
+  transform: scale(1.2); /* Scale up */
+}
+.art_wrapper .art_btn1 {
+  /* Rectangle 2 */
+  box-sizing: border-box;
+  width: 157px;
+  height: 50px;
+  /* dark */
+  background-color: inherit;
+  border: 2px solid #001e42;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* dark */
+  color: #001e42;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.art_wrapper .art_btn1:hover {
+  background-color: #f2f2f2;
+  transform: scale(1.2); /* Scale up */
+}
+.art_wrapper .art_blok {
+  /* Rectangle 38 */
+  box-sizing: border-box;
+  width: 259px;
+  height: 321px;
+  /* dark */
+  border: 2px solid #001e42;
+}
+.art_wrapper .art_glav_box {
+  margin-top: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.art_wrapper .art_mini_box {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.art_wrapper .art_blok_title {
+  /* Тарифный план */
+  width: 167px;
+  height: 25px;
+  margin: auto;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+  text-align: center;
+  /* dark */
+  color: #001e42;
+}
+.art_wrapper .art_blok_sub_title {
+  /* Легкий старт */
+  width: 221px;
+  height: 36px;
+  margin: auto;
+  padding: 25px 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 140%;
+  /* or 36px */
+  text-align: center;
+  text-transform: uppercase;
+  /* dark */
+  color: #001e42;
+}
+.art_wrapper .art_blok_text {
+  /* грн/мес */
+  width: 92px;
+  height: 24px;
+  margin: 66px auto;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  /* dark */
+  color: #001e42;
+}
+.art_wrapper .art_blok_text1 {
+  /* за 1 рабочее место */
+  width: 189px;
+  padding: 15 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  margin: auto;
+  /* or 25px */
+  text-align: center;
+  /* dark */
+  color: #001e42;
+}
+
+.footer_wrapper {
+  width: 100%;
+  height: 240px;
+  /* ultra-dark */
+  background: #06182f;
+}
+.footer_wrapper .footer_text {
+  /* info@it-spk.com */
+  width: 176px;
+  height: 21px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.footer_wrapper .footer_title {
+  /* +380 93 541 20 92 */
+  width: 175px;
+  height: 21px;
+  font-family: "Montserrat";
+  padding: 15px 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.footer_wrapper .footer_tel_text {
+  /* lifecell */
+  width: 40px;
+  height: 17px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+}
+.footer_wrapper .footer_right_title {
+  /* Обслуживание компьютеров и монтаж сетей в Киеве */
+  width: 304px;
+  height: 44px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: right;
+  color: #00feff;
+}
+.footer_wrapper .footer_right_text {
+  margin: 50px 170px;
+  width: 122px;
+  height: 22px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  text-align: right;
+  color: #ffffff;
+}
+.footer_wrapper .footer_glav_box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer_wrapper .footer_tel_Box {
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}/*# sourceMappingURL=style.css.map */

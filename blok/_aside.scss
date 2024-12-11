@@ -1,0 +1,117 @@
+.asd_wrapper {
+  width: 100%;
+  height: 600px;
+  margin: auto;
+
+  .asd_glav_box {
+    display: flex;
+    align-items: center;
+    margin-left: 510px;
+    gap: 210px;
+  }
+
+  .asd_text {
+    width: 521px;
+    height: 102px;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    /* or 31px */
+
+    /* dark */
+    color: #001e42;
+  }
+
+  .asd_img_box {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .asd_title {
+    width: 174px;
+    height: 118px;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 115%;
+    /* or 55px */
+
+    /* dark */
+    color: #001e42;
+  }
+
+  .asd_text1 {
+    /* Подключить обслуживание компьютеров у нас очень просто */
+
+    width: 940px;
+    height: 32px;
+    margin: 50px 510px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    /* dark */
+    color: #001e42;
+  }
+
+  .asd_bck1 {
+    background-image: url("../img/1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* 1 */
+
+    width: 38px;
+    height: 117px;
+  }
+
+  .asd_bck2 {
+    background-image: url("../img/2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* 1 */
+
+    width: 57px;
+    height: 117px;
+  }
+
+  .asd_bck3 {
+    background-image: url("../img/3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* 1 */
+    width: 57px;
+    height: 117px;
+  }
+
+  .asd_mini_box {
+    display: flex;
+    align-items: center;
+    margin: 120px 270px;
+    gap: 610px;
+  }
+
+  .asd_text2 {
+    position: absolute;
+
+    margin-top: 55px;
+    margin-left: 35px;
+    width: 276px;
+    height: 43px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* dark */
+    color: #001e42;
+  }
+}
